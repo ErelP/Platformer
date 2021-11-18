@@ -1,0 +1,921 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.2f1 (5e2b1e92c7f8) revision 6171422'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'ru' Physical Memory: 8089 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Projects/RogueLike
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+52221
+Successfully changed project path to: D:/Projects/RogueLike
+D:/Projects/RogueLike
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 284.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/RogueLike/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008426 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (812ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (602ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003668 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\RogueLike\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\RogueLike\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1384ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1025ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.42 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (55.8 KB). Loaded Objects now: 3538.
+Memory consumption went from 112.0 MB to 112.0 MB.
+Total: 3.995200 ms (FindLiveObjects: 0.606100 ms CreateObjectMapping: 0.498000 ms MarkObjects: 2.816200 ms  DeleteObjects: 0.073900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 241893.497174 seconds.
+  path: Assets/Dungeon
+  artifactKey: Guid(e6a9fe0ce22df9b488276e63fb65568a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon using Guid(e6a9fe0ce22df9b488276e63fb65568a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1315ad23d99175c8ddc2c9fedf2219') in 0.011804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.763720 seconds.
+  path: Assets/Dungeon/Models/fbx/weaponRack.fbx
+  artifactKey: Guid(6da4b248720f4964d8b831af2ec8b932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/weaponRack.fbx using Guid(6da4b248720f4964d8b831af2ec8b932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969c9286e1907c72b77639cb879ed408') in 0.338080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon/Models/dae/weaponRack.dae
+  artifactKey: Guid(22ba416a3443d4348a40b08c369493b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/dae/weaponRack.dae using Guid(22ba416a3443d4348a40b08c369493b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b7a91818c75a2402a90963e73ffd76') in 0.032376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon/Models/fbx/wallSingle_windowGate.fbx
+  artifactKey: Guid(508a8fc360477e44b949e116d295c36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wallSingle_windowGate.fbx using Guid(508a8fc360477e44b949e116d295c36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea33d38e5367f7f6e7a6c2b2355eef9e') in 0.034383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.482547 seconds.
+  path: Assets/Dungeon/Models/fbx/wallSingle_window.fbx
+  artifactKey: Guid(070ec09ad74185446a225c86050ef039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wallSingle_window.fbx using Guid(070ec09ad74185446a225c86050ef039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ae889ef0b6ae6e2a18e5a09ceddf77') in 0.026765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026689 seconds.
+  path: Assets/Dungeon/Models/fbx/wallSingle_split.fbx
+  artifactKey: Guid(22aff55c9515e494a95392e99b58fc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wallSingle_split.fbx using Guid(22aff55c9515e494a95392e99b58fc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655f0433cb19f446f7f2fac2c83b4548') in 0.042320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.571976 seconds.
+  path: Assets/Dungeon/Models/fbx/wallSingle_door.fbx
+  artifactKey: Guid(d08184c69a2effe4bb60dc4fa6bca2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wallSingle_door.fbx using Guid(d08184c69a2effe4bb60dc4fa6bca2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ad1705eb299e5d9d8dea1a8b3bf884') in 0.054785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.886519 seconds.
+  path: Assets/Dungeon/Models/fbx/wallSingle_decorationB.fbx
+  artifactKey: Guid(dac1833047612284ab9431102a5b41d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wallSingle_decorationB.fbx using Guid(dac1833047612284ab9431102a5b41d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9c60758e2c767c1af070090b817c7d') in 0.058222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.155462 seconds.
+  path: Assets/Dungeon/Models/fbx/wallSingle_decorationA.fbx
+  artifactKey: Guid(1dbab867b38295f4abba6d01618caac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wallSingle_decorationA.fbx using Guid(1dbab867b38295f4abba6d01618caac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5a1c334afe40ec359081ead4987dac') in 0.024629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041397 seconds.
+  path: Assets/Dungeon/Models/fbx/wallSingle_corner.fbx
+  artifactKey: Guid(a37dbf6821c7f5746a7d4adc3c90e037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wallSingle_corner.fbx using Guid(a37dbf6821c7f5746a7d4adc3c90e037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18ec73e442e648322f8a0afbd6bebcc') in 0.028116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.145031 seconds.
+  path: Assets/Dungeon/Models/dae/wallSingle_broken.dae
+  artifactKey: Guid(6c086c3bad203104eb3120aaecec9482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/dae/wallSingle_broken.dae using Guid(6c086c3bad203104eb3120aaecec9482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e0b6071242c26cac19e0486b333df8') in 0.026561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.374603 seconds.
+  path: Assets/Dungeon/Models/fbx/wallSingle.fbx
+  artifactKey: Guid(8a51ec4b5ac459a4f94b569c46819dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wallSingle.fbx using Guid(8a51ec4b5ac459a4f94b569c46819dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e8f2e0f5e499a75bfe6d3d778b316d') in 0.054022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015907 seconds.
+  path: Assets/Dungeon/Models/dae/wallIntersection.dae
+  artifactKey: Guid(b6ee935c69c05124fac9f268c15ff258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/dae/wallIntersection.dae using Guid(b6ee935c69c05124fac9f268c15ff258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6b473a12a504b22b7a8ef6ec781496') in 0.043583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.262887 seconds.
+  path: Assets/Dungeon/Models/fbx/wallDecorationB.fbx
+  artifactKey: Guid(01d6515eb0d94eb4eac794f170425f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wallDecorationB.fbx using Guid(01d6515eb0d94eb4eac794f170425f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c66b752297ebe074e8bcb3e366f203') in 0.026815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050561 seconds.
+  path: Assets/Dungeon/Models/dae/wallDecorationA.dae
+  artifactKey: Guid(39ad278e4b94adc489f400180c3302c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/dae/wallDecorationA.dae using Guid(39ad278e4b94adc489f400180c3302c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffb5f5fa89bc4e8c6758913c70a1f01') in 0.027424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.206791 seconds.
+  path: Assets/Dungeon/Models/fbx/wallCorner.fbx
+  artifactKey: Guid(c3f73735203fd8c49b629754694e29a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wallCorner.fbx using Guid(c3f73735203fd8c49b629754694e29a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8865e6e69a341a4fcf5f95f3edf9ed') in 0.037853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052083 seconds.
+  path: Assets/Dungeon/Models/dae/wall_windowGate.dae
+  artifactKey: Guid(3447f5ae62973fe4e8f591519744177e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/dae/wall_windowGate.dae using Guid(3447f5ae62973fe4e8f591519744177e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f44a90ddb8289033ee0fc7f22dbbdf1') in 0.104036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.270096 seconds.
+  path: Assets/Dungeon/Models/fbx/wall_window.fbx
+  artifactKey: Guid(afb4b0f8d64eb314098ff2dc56c2d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wall_window.fbx using Guid(afb4b0f8d64eb314098ff2dc56c2d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e143d1ac8c33bde0db14491fc4b33e5') in 0.025584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015472 seconds.
+  path: Assets/Dungeon/Models/dae/wall_gateDoor.dae
+  artifactKey: Guid(9c82ca1bfcebbc648af0c90109e298d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/dae/wall_gateDoor.dae using Guid(9c82ca1bfcebbc648af0c90109e298d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d18f1efeb45c1aed652ac3a970d5451') in 0.034725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089997 seconds.
+  path: Assets/Dungeon/Models/dae/wall_gateCorner.dae
+  artifactKey: Guid(4c6cd546fe4ba51439ed64de18da3e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/dae/wall_gateCorner.dae using Guid(4c6cd546fe4ba51439ed64de18da3e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25ec310deb1d33463eaff6567541b01') in 0.029845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085653 seconds.
+  path: Assets/Dungeon/Models/fbx/wall_gate.fbx
+  artifactKey: Guid(13aa583636772ee438c6853eb08e4f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wall_gate.fbx using Guid(13aa583636772ee438c6853eb08e4f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b511209115134f9a8257cfbadef3e59') in 0.051796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.258534 seconds.
+  path: Assets/Dungeon/Models/dae/wall_end_broken.dae
+  artifactKey: Guid(232f21a6da7c6334eb2a3cb233e92594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/dae/wall_end_broken.dae using Guid(232f21a6da7c6334eb2a3cb233e92594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cfbb773077c038a494097ac67d0626') in 0.036892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon/Models/fbx/wall_end_broken.fbx
+  artifactKey: Guid(d34eb189dd92e5446b0cdb194655a12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wall_end_broken.fbx using Guid(d34eb189dd92e5446b0cdb194655a12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b317e4676d5c1dc657741462029e4c') in 0.032416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Dungeon/Models/dae/wall_door.dae
+  artifactKey: Guid(6a10b822e82c12647984006efd30992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/dae/wall_door.dae using Guid(6a10b822e82c12647984006efd30992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787cac054a0a817840ca90744446dccb') in 0.026780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.316481 seconds.
+  path: Assets/Dungeon/Models/dae/wall_broken.dae
+  artifactKey: Guid(8385ac4b21ed29e48aff26aed7eb08fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/dae/wall_broken.dae using Guid(8385ac4b21ed29e48aff26aed7eb08fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0fd1be450e15a33206b76773079a45') in 0.047779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dungeon/Models/dae/wall.dae
+  artifactKey: Guid(50f3441e4f37c4d4db664b27b13f6fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/dae/wall.dae using Guid(50f3441e4f37c4d4db664b27b13f6fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b5032acc5444cf5f0a2ee5ab4e50eb') in 0.063340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon/Models/fbx/wall.fbx
+  artifactKey: Guid(04d41d0a16ef33c43999fdbac48db02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/fbx/wall.fbx using Guid(04d41d0a16ef33c43999fdbac48db02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01e164198a6c8e03d6454d47c5c6933') in 0.026525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.487023 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.006730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.879263 seconds.
+  path: Assets/floor.mat
+  artifactKey: Guid(75e55edaacc86884f8396e0bd679d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/floor.mat using Guid(75e55edaacc86884f8396e0bd679d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af5d186513c9be903e74cfeaed433fb') in 0.141740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.883958 seconds.
+  path: Assets/Dungeon/Models
+  artifactKey: Guid(f9cb5c390521e8643a2d85119ec8aa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models using Guid(f9cb5c390521e8643a2d85119ec8aa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9eb408d9bc8551d9d5c7ff779e1324b') in 0.006116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.395291 seconds.
+  path: Assets/Dungeon/Models/obj
+  artifactKey: Guid(12ee910ca657412419e8526c71993218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj using Guid(12ee910ca657412419e8526c71993218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c779d57a99c02542dff7ddbf32bec0c8') in 0.005755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077138 seconds.
+  path: Assets/Dungeon/Models/obj/arrow.obj
+  artifactKey: Guid(5cde09dcec55d114bb31bceb33ea642e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/arrow.obj using Guid(5cde09dcec55d114bb31bceb33ea642e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d631c93da5f8ba7897e6a5ee7dc842') in 0.042951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dungeon/Models/obj/bench.obj
+  artifactKey: Guid(ea39a39f57a5b244a8b4ed079d7e2751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/bench.obj using Guid(ea39a39f57a5b244a8b4ed079d7e2751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a25d4354491c09f1c08f3954e6bb999') in 0.031096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Dungeon/Models/obj/bookcaseWideFilled_broken.obj
+  artifactKey: Guid(daf5c75ae059a494b9cc2c36e1d86530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/bookcaseWideFilled_broken.obj using Guid(daf5c75ae059a494b9cc2c36e1d86530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83c90ca40df7da8a4ff6440108f3407') in 0.063221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon/Models/obj/chest_rare.obj
+  artifactKey: Guid(30b4d068966236246bcbc98fdba728c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/chest_rare.obj using Guid(30b4d068966236246bcbc98fdba728c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae8245bbfc9c0b02dbae74865a41860') in 0.044174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dungeon/Models/obj/bookC.obj
+  artifactKey: Guid(c407c62046ce6dd4a942ee42a72f8396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/bookC.obj using Guid(c407c62046ce6dd4a942ee42a72f8396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ec2a930505dedc50dd77845daf49e2') in 0.029511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Dungeon/Models/obj/barrelDark.obj
+  artifactKey: Guid(37a8a12406382cd4c82c53b94645aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/barrelDark.obj using Guid(37a8a12406382cd4c82c53b94645aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a930aa3c801d0d4c996c2a5398f4bc33') in 0.041391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Dungeon/Models/obj/bookcaseFilled_broken.obj
+  artifactKey: Guid(b22b5d633af4c3142aed704c8c0cf819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/bookcaseFilled_broken.obj using Guid(b22b5d633af4c3142aed704c8c0cf819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f5f166f7f88ebdaca8c00a342647f9') in 0.056562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon/Models/obj/bucket.obj
+  artifactKey: Guid(6aa4ad234b8c78b46a322be26d7cbce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/bucket.obj using Guid(6aa4ad234b8c78b46a322be26d7cbce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0f2c33a56f1f661c3a1dbd78086830') in 0.034720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon/Models/obj/chest_uncommon.obj
+  artifactKey: Guid(d41547ff408fd964a9728e3e2e4e9480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/chest_uncommon.obj using Guid(d41547ff408fd964a9728e3e2e4e9480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffeb5f54a8ba881e8744d983e85e6d78') in 0.044777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dungeon/Models/obj/banner.obj
+  artifactKey: Guid(1bef6c3ca540e4a41b938ec53f794629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/banner.obj using Guid(1bef6c3ca540e4a41b938ec53f794629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42d8b57325b817bbd2bcfdca8e475c3') in 0.044602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon/Models/obj/bookD.obj
+  artifactKey: Guid(cf5785dace8e19742a5be5b2d806efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/bookD.obj using Guid(cf5785dace8e19742a5be5b2d806efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9604d8ebf11be55b3691b838336edd83') in 0.032557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dungeon/Models/obj/axe_rare.obj
+  artifactKey: Guid(9c76977b34796ed4796cb9958743f46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/axe_rare.obj using Guid(9c76977b34796ed4796cb9958743f46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf35ac7629231e7ade63fc7cb9efc30') in 0.043197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon/Models/obj/chest_common.obj
+  artifactKey: Guid(091ffad09f3dd134eaf3a67f82106121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/chest_common.obj using Guid(091ffad09f3dd134eaf3a67f82106121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4010c20ea8a6dbc46849f73981b6310') in 0.056423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dungeon/Models/obj/chest_uncommon_mimic.obj
+  artifactKey: Guid(cec110fa6f14a384580c4b68203671be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/chest_uncommon_mimic.obj using Guid(cec110fa6f14a384580c4b68203671be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122afc43445fb5014f992072126cb1f4') in 0.044589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Dungeon/Models/obj/barrel.obj
+  artifactKey: Guid(9bfb02f45268beb4fb2290c5218a3489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/barrel.obj using Guid(9bfb02f45268beb4fb2290c5218a3489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf0f39d4580c0b46a501e3ab004a7f6') in 0.040080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon/Models/obj/bookE.obj
+  artifactKey: Guid(0e0501ca8a390ec4e95f55924a411898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/bookE.obj using Guid(0e0501ca8a390ec4e95f55924a411898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c9b249816241b6d07a9d1a68c40ec8') in 0.031734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dungeon/Models/obj/bookB.obj
+  artifactKey: Guid(5cf14601b319ebc4baf83c3fc8c7da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/bookB.obj using Guid(5cf14601b319ebc4baf83c3fc8c7da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6824935856def4da043f408f2fe545') in 0.051904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dungeon/Models/obj/chest_rare_mimic.obj
+  artifactKey: Guid(e7c1b6cebd910dd4eaa0ddfa44287a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/chest_rare_mimic.obj using Guid(e7c1b6cebd910dd4eaa0ddfa44287a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359e834d68990793cfcbaf224ebe6626') in 0.040195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Dungeon/Models/obj/axeDouble_rare.obj
+  artifactKey: Guid(7ca13ddf810fdbe4f814948a65da284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/axeDouble_rare.obj using Guid(7ca13ddf810fdbe4f814948a65da284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f34efcb12093ca1fe906d1b53b7969') in 0.039988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dungeon/Models/obj/bookA.obj
+  artifactKey: Guid(fd66f6868c3c46f45b543c40b796a46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/bookA.obj using Guid(fd66f6868c3c46f45b543c40b796a46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adf4256d5e3879f65d7a07e0ba7679f') in 0.035854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon/Models/obj/bookOpenA.obj
+  artifactKey: Guid(74d3db9f37bcd4c42be52949875a9bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/bookOpenA.obj using Guid(74d3db9f37bcd4c42be52949875a9bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fb95eb966342fce7bb0f0f30c75abb') in 0.039054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.790989 seconds.
+  path: Assets/Dungeon/Models/obj/chestTop_rare_mimic.obj
+  artifactKey: Guid(491b64bbcade29e4cbe99e5eabe2b106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/chestTop_rare_mimic.obj using Guid(491b64bbcade29e4cbe99e5eabe2b106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70668b29eb7f28cb866904f22714f8d9') in 0.044418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dungeon/Models/obj/coinsSmall.obj
+  artifactKey: Guid(60a708b6f0ca0834c8e4ae0205c7ef3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/coinsSmall.obj using Guid(60a708b6f0ca0834c8e4ae0205c7ef3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a635b8cd914176e20632a313c5cbbc') in 0.029597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Dungeon/Models/obj/crate.obj
+  artifactKey: Guid(a0c633aec7e719d47930fd1a5748589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/crate.obj using Guid(a0c633aec7e719d47930fd1a5748589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293a2e0e6decae6bf9f4594e981ec3a3') in 0.035416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon/Models/obj/coinsMedium.obj
+  artifactKey: Guid(1c385efc32f307447b41421d7d240b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/coinsMedium.obj using Guid(1c385efc32f307447b41421d7d240b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdcf223094be249dab986ace0061ad5') in 0.031157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045641 seconds.
+  path: Assets/Dungeon/Models/obj/crateDark.obj
+  artifactKey: Guid(4b77fae38e54d3547b93441015a10f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/crateDark.obj using Guid(4b77fae38e54d3547b93441015a10f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103b90c6045f2b1f399196e3cc79b7c5') in 0.033443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon/Models/obj/cratePlatform_small.obj
+  artifactKey: Guid(5045b8b08777c094cbe373d906afaed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/cratePlatform_small.obj using Guid(5045b8b08777c094cbe373d906afaed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1851ded303465b1cc31e821ecc568e') in 0.048086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dungeon/Models/obj/cratePlatform_large.obj
+  artifactKey: Guid(5bf1bdb92e7ebe24db4f887198ce8f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/cratePlatform_large.obj using Guid(5bf1bdb92e7ebe24db4f887198ce8f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7163c0099164b58bc915c6a059e556') in 0.032590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon/Models/obj/crossbow_common.obj
+  artifactKey: Guid(e4ce16a25e295784cbe9dae0160dec62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/crossbow_common.obj using Guid(e4ce16a25e295784cbe9dae0160dec62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3652748f6ea9cc3162e3b72cd9283b') in 0.033582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221696 seconds.
+  path: Assets/Dungeon/Models/obj/dagger_rare.obj
+  artifactKey: Guid(bc9446678a8bd294bbe1950dedb01787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/dagger_rare.obj using Guid(bc9446678a8bd294bbe1950dedb01787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1278fdab93e7aa1946c99770c9f332c') in 0.039622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dungeon/Models/obj/door_gate.obj
+  artifactKey: Guid(f38f322cc00d57041807ad326f7671f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/door_gate.obj using Guid(f38f322cc00d57041807ad326f7671f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa251e0e5d4bd41e865e1283ee4596a1') in 0.033081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon/Models/obj/floorDecoration_tilesLarge.obj
+  artifactKey: Guid(764b2b61a63531a439123556edef72eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/floorDecoration_tilesLarge.obj using Guid(764b2b61a63531a439123556edef72eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d6d74f92408ded6b2291823bb57296') in 0.043266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Dungeon/Models/obj/door.obj
+  artifactKey: Guid(e7779d038c8fee244901ea9f4925a70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/door.obj using Guid(e7779d038c8fee244901ea9f4925a70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6706b6820e2a1b3552f069415407be0d') in 0.032001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034855 seconds.
+  path: Assets/Dungeon/Models/obj/floorDecoration_woodLeft.obj
+  artifactKey: Guid(d27f176c0633c66458df969173252406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/floorDecoration_woodLeft.obj using Guid(d27f176c0633c66458df969173252406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3e467bf29d335ee5da4c0613fb9ded') in 0.028751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon/Models/obj/hammer_uncommon.obj
+  artifactKey: Guid(4defccf95c4f4084f92f52d0e7ecc13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/hammer_uncommon.obj using Guid(4defccf95c4f4084f92f52d0e7ecc13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075563cc9fe2c47da06cbcff336bcfae') in 0.036776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Dungeon/Models/obj/lootSackA.obj
+  artifactKey: Guid(499dc7aab8581534d8617925df51eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/lootSackA.obj using Guid(499dc7aab8581534d8617925df51eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560eaa3ea25ce495bd1c48f4e4083366') in 0.031713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon/Models/obj/lootSackB.obj
+  artifactKey: Guid(4fd91abfc96af2048b2460088e7e29ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/lootSackB.obj using Guid(4fd91abfc96af2048b2460088e7e29ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ee2892863d354354b95f62eff2eafb') in 0.037421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.635640 seconds.
+  path: Assets/Dungeon/Models/obj/pillar.obj
+  artifactKey: Guid(5ec6e2be316e54845bbcbeb52e9c9302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/pillar.obj using Guid(5ec6e2be316e54845bbcbeb52e9c9302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0534908247ff5273367ea777685512') in 0.035974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon/Models/obj/potA.obj
+  artifactKey: Guid(abff4c4e16994c64d9890d9e4d6f05ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/potA.obj using Guid(abff4c4e16994c64d9890d9e4d6f05ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe376385140b42da1d7e55731736fc1f') in 0.029623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dungeon/Models/obj/plate.obj
+  artifactKey: Guid(2186d124142b96a49b17b1385b98d9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/plate.obj using Guid(2186d124142b96a49b17b1385b98d9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626afae0f2e67964dd9ca43efdb8b91b') in 0.030724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dungeon/Models/obj/plateHalf.obj
+  artifactKey: Guid(0082d82a71d7b1546a350de4d2c357c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/plateHalf.obj using Guid(0082d82a71d7b1546a350de4d2c357c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63b597783971b09e6eaee17f734cd8a') in 0.027758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dungeon/Models/obj/potB.obj
+  artifactKey: Guid(a946758f872fe4349a6ffacf093e2f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/potB.obj using Guid(a946758f872fe4349a6ffacf093e2f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafa2e3c09bb1630d76ba6c69284fd10') in 0.048628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.084071 seconds.
+  path: Assets/Dungeon/Models/obj/potB_decorated.obj
+  artifactKey: Guid(df9c29aaae189554fb791e30d93a033d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/potB_decorated.obj using Guid(df9c29aaae189554fb791e30d93a033d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afaf85fe66c97be28e805c91dfd519e') in 0.031867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Dungeon/Models/obj/potionLarge_red.obj
+  artifactKey: Guid(ea52d37149386d54ea62dc7d5b370ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/potionLarge_red.obj using Guid(ea52d37149386d54ea62dc7d5b370ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de9b515697b2aa949d9996a92dace86') in 0.264930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Dungeon/Models/obj/potionMedium_red.obj
+  artifactKey: Guid(2bb41005e379c594e9e84d00dbe0bd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/potionMedium_red.obj using Guid(2bb41005e379c594e9e84d00dbe0bd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d30b15a2e1b04ef1b61eb3e10d77a8c') in 0.041941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029263 seconds.
+  path: Assets/Dungeon/Models/obj/potionLarge_green.obj
+  artifactKey: Guid(8a1693b27e6019e4fb472c538e2c73a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/potionLarge_green.obj using Guid(8a1693b27e6019e4fb472c538e2c73a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13d8af8af072f6439d267bfa3feac5a') in 0.073270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon/Models/obj/potionLarge_blue.obj
+  artifactKey: Guid(1ae9262949e8f9041ba2eca70ce15ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/potionLarge_blue.obj using Guid(1ae9262949e8f9041ba2eca70ce15ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b00d455cb3601c0e813e38a2254f324') in 0.040773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dungeon/Models/obj/potionSmall_blue.obj
+  artifactKey: Guid(a3f272d73aed4974d981de5a0d85a4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/potionSmall_blue.obj using Guid(a3f272d73aed4974d981de5a0d85a4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6a5f1b015ca4a61c54efddfba90d50') in 0.040507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon/Models/obj/potionSmall_green.obj
+  artifactKey: Guid(e75a6b16bca087546b2e1219cb36fc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/potionSmall_green.obj using Guid(e75a6b16bca087546b2e1219cb36fc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb66c35c056bb012fb0d664f85dee374') in 0.041137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_high.obj
+  artifactKey: Guid(1ebed4e96692df2448d02671c3f66203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_high.obj using Guid(1ebed4e96692df2448d02671c3f66203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5557b5b6821344bf38425da00fc0dd5') in 0.031622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_low.obj
+  artifactKey: Guid(1a4f95e787d7396498f7f960ccf4a743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_low.obj using Guid(1a4f95e787d7396498f7f960ccf4a743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eee01af92063d6cec8868a4e6d78607') in 0.029481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_low_cornerBoth.obj
+  artifactKey: Guid(b7e4d6e6267ca6d448ab4e6786e2a03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_low_cornerBoth.obj using Guid(b7e4d6e6267ca6d448ab4e6786e2a03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3086c6fbbee5f60ad9398593f462d5') in 0.031711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_high_cornerRight.obj
+  artifactKey: Guid(e6e76be1b1db7f24d99614ffbf577121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_high_cornerRight.obj using Guid(e6e76be1b1db7f24d99614ffbf577121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fdf9e4a5b6478b32998815f4650686') in 0.031390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_high_railing.obj
+  artifactKey: Guid(a276b70d40e537c4eb0037917f32764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_high_railing.obj using Guid(a276b70d40e537c4eb0037917f32764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37d9fdc4f75f6e7009d0cc13e79f561') in 0.025118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.258816 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_low_cornerRight.obj
+  artifactKey: Guid(43c7f6b3c259d2748b02772abcd4d38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_low_cornerRight.obj using Guid(43c7f6b3c259d2748b02772abcd4d38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724f5481f7ed02a07b97523aea600f6e') in 0.027323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_medium.obj
+  artifactKey: Guid(3d2fdd3b8132cb74785773eb2960b662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_medium.obj using Guid(3d2fdd3b8132cb74785773eb2960b662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a17e9c00d2553982b90a3b606435b8c') in 0.030465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_medium_cornerRight.obj
+  artifactKey: Guid(d20285c8f30a7414ca374afe5cac0912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_medium_cornerRight.obj using Guid(d20285c8f30a7414ca374afe5cac0912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e30375cd3116c60d462c668cb055e6') in 0.031090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_small_high.obj
+  artifactKey: Guid(37facda19d1e9ca4e95de61ea9bd8098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_small_high.obj using Guid(37facda19d1e9ca4e95de61ea9bd8098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec70aed348e1a6b392ac2bbc4f75020') in 0.029122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074990 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_small_high_cornerLeft.obj
+  artifactKey: Guid(226bdaffc2eed6646aaa2704c80cd2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_small_high_cornerLeft.obj using Guid(226bdaffc2eed6646aaa2704c80cd2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf388a788bf3a0f9a9483ccb5e7b22fb') in 0.025942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_small_high_long.obj
+  artifactKey: Guid(940799ee4190bb345a9466fe7226d418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_small_high_long.obj using Guid(940799ee4190bb345a9466fe7226d418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534d4c374a13b391cda439a69d4dbad8') in 0.031372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_small_high_railing_long.obj
+  artifactKey: Guid(0400730712a19fa429fc83b004b3ad3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_small_high_railing_long.obj using Guid(0400730712a19fa429fc83b004b3ad3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999482164a30398ecc76eccd27a8df37') in 0.032489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_small_low.obj
+  artifactKey: Guid(ae6df2fbaded8b94196f8e7d21c97116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_small_low.obj using Guid(ae6df2fbaded8b94196f8e7d21c97116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1773bd61967fa49aff155d8c012fc238') in 0.030254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_small_low_long.obj
+  artifactKey: Guid(6a44f132da8543b4692daee8d75342c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_small_low_long.obj using Guid(6a44f132da8543b4692daee8d75342c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce1918aaaa836600c77d8977f1d1fff') in 0.030962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_small_medium_long.obj
+  artifactKey: Guid(b3f4207b0f532804a9f7f1b92b4ef295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_small_medium_long.obj using Guid(b3f4207b0f532804a9f7f1b92b4ef295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bce3238315e8c57cdf7b89757019dd7') in 0.029729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_small_low_railing.obj
+  artifactKey: Guid(dea4b24e45675cb49818a9db14250c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_small_low_railing.obj using Guid(dea4b24e45675cb49818a9db14250c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fb186dd0f3a99e9d9efcc3867cdce3') in 0.027824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Dungeon/Models/obj/shield_uncommon.obj
+  artifactKey: Guid(40079de1b2c0d9d4da33c0105fb1026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/shield_uncommon.obj using Guid(40079de1b2c0d9d4da33c0105fb1026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4020e85c80b62998e13a862fc3cef3d') in 0.034666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon/Models/obj/staff_common.obj
+  artifactKey: Guid(dffdd866419bb6549b2d78f1983fc710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/staff_common.obj using Guid(dffdd866419bb6549b2d78f1983fc710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783e0af306bb7f841141dae0612e4e0f') in 0.034199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_small_high_railing.obj
+  artifactKey: Guid(092ee39ee8d12f548ac938012fc9d60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_small_high_railing.obj using Guid(092ee39ee8d12f548ac938012fc9d60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522bc642205861b7acb41d56cfe5ffac') in 0.027137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_small_medium.obj
+  artifactKey: Guid(fed16756cad003f408ffd0f09a933616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_small_medium.obj using Guid(fed16756cad003f408ffd0f09a933616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7fde42e7845051ed954fc35fd94cc8') in 0.034826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Dungeon/Models/obj/scaffold_stairs.obj
+  artifactKey: Guid(aec11ff9914eb7a428d20e91d5d846bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/scaffold_stairs.obj using Guid(aec11ff9914eb7a428d20e91d5d846bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf560f4b4730da86016af5e1bbca5e88') in 0.031184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dungeon/Models/obj/staff_rare.obj
+  artifactKey: Guid(4f81fa09f2eda8d41b08d2bb0f7fd2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/staff_rare.obj using Guid(4f81fa09f2eda8d41b08d2bb0f7fd2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95081947c8bffb24ba34279b8ab77652') in 0.040386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.937723 seconds.
+  path: Assets/Dungeon/Models/obj/staff_uncommon.obj
+  artifactKey: Guid(9516c29225f247d4fb99eec6b1c932f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/staff_uncommon.obj using Guid(9516c29225f247d4fb99eec6b1c932f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866a1bb3905d646f7355cd64bdf58ec5') in 0.029723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Dungeon/Models/obj/sword_rare.obj
+  artifactKey: Guid(4f72d0259140f7b4192bb3eccb4f0b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/sword_rare.obj using Guid(4f72d0259140f7b4192bb3eccb4f0b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b01966bbebb94b51967334003a437b6') in 0.046219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon/Models/obj/stairs_wide.obj
+  artifactKey: Guid(c77acfc88125ff144b758fdcc45b3185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/stairs_wide.obj using Guid(c77acfc88125ff144b758fdcc45b3185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95331d188790ccbe78358770b031fc5a') in 0.027848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Dungeon/Models/obj/stool.obj
+  artifactKey: Guid(9d1dd1ebb9cc8e44f8bd621ce284a41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/stool.obj using Guid(9d1dd1ebb9cc8e44f8bd621ce284a41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e8d3f8d9d17a39d2eb421dfe7ec02f') in 0.032018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.352168 seconds.
+  path: Assets/Dungeon/Models/obj/tableMedium.obj
+  artifactKey: Guid(9204a9834fb5443478068531290300b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/tableMedium.obj using Guid(9204a9834fb5443478068531290300b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd26540da4a7d3bf6367ad746dabc265') in 0.025987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon/Models/obj/tileBrickA_large.obj
+  artifactKey: Guid(52e23718d78f8e342aed76a598f4bd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/tileBrickA_large.obj using Guid(52e23718d78f8e342aed76a598f4bd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0742d7246020ee864083d88c2a61eb9b') in 0.036586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon/Models/obj/tileBrickA_medium.obj
+  artifactKey: Guid(7185ecf7ac52c784897d82a14b1ebb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/tileBrickA_medium.obj using Guid(7185ecf7ac52c784897d82a14b1ebb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73636c58dd068ee55c1e09ea4778bb2a') in 0.053102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dungeon/Models/obj/tileBrickA_small.obj
+  artifactKey: Guid(a62a1d18dceb6484cac21e3f3b35dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/tileBrickA_small.obj using Guid(a62a1d18dceb6484cac21e3f3b35dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913eac81abb01e6474b63d149554ae18') in 0.031559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.651440 seconds.
+  path: Assets/Dungeon/Models/obj/tileBrickB_medium.obj
+  artifactKey: Guid(1a4ce2bb23c4b304189aa963b4004dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/tileBrickB_medium.obj using Guid(1a4ce2bb23c4b304189aa963b4004dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabd6267f1200635bbcff1f2c90d6b47') in 0.034442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dungeon/Models/obj/tileSpikes.obj
+  artifactKey: Guid(6c7060ab4fc785643b923a32d7d3f654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/tileSpikes.obj using Guid(6c7060ab4fc785643b923a32d7d3f654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda585e097701695e39d1315f8809dc0') in 0.039930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dungeon/Models/obj/torch.obj
+  artifactKey: Guid(1c0ad9aa6812eed49bb3492b8e2abe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/torch.obj using Guid(1c0ad9aa6812eed49bb3492b8e2abe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27f1810bdd664a7b78f32cf6743fe8c') in 0.038463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Dungeon/Models/obj/trapdoor.obj
+  artifactKey: Guid(c39ed63eebb94e24498e8c670761ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/trapdoor.obj using Guid(c39ed63eebb94e24498e8c670761ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662800c9159ade6f7e3054ab0a23ddac') in 0.032484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.410977 seconds.
+  path: Assets/Dungeon/Models/obj/wall.obj
+  artifactKey: Guid(27519d4414be9784bb4bb401ae5fc6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/wall.obj using Guid(27519d4414be9784bb4bb401ae5fc6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41699eec3ba35d7a14d6dc58a7fac466') in 0.030160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon/Models/obj/wall_door.obj
+  artifactKey: Guid(37708ba52b28c0c479c33f3233d3b81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/wall_door.obj using Guid(37708ba52b28c0c479c33f3233d3b81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e510abfca53daa4f0f83133716fa02') in 0.032250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon/Models/obj/wall_end.obj
+  artifactKey: Guid(469985945ae61bd41a00705a242aafc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/wall_end.obj using Guid(469985945ae61bd41a00705a242aafc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d01d7b1d5f11bb04c1cbc5523fd088') in 0.035996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Dungeon/Models/obj/wall_gateCorner.obj
+  artifactKey: Guid(985e765c6d6b8f444b75c14e90a88f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/wall_gateCorner.obj using Guid(985e765c6d6b8f444b75c14e90a88f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f224b1cde4459656b41c812f245fc733') in 0.055655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.212893 seconds.
+  path: Assets/Dungeon/Models/obj/wall_window.obj
+  artifactKey: Guid(8b9a66536bd9fb04aa662a84dc29974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/wall_window.obj using Guid(8b9a66536bd9fb04aa662a84dc29974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8a11d796b146f163c3ba309299720b') in 0.036670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dungeon/Models/obj/wallIntersection.obj
+  artifactKey: Guid(96b424207f6baaa47bcce90708059850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/wallIntersection.obj using Guid(96b424207f6baaa47bcce90708059850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fb1d0480876497bce89a6e04db62de') in 0.036309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dungeon/Models/obj/wallSingle.obj
+  artifactKey: Guid(e81b8bb483ea9e94eac1506b75e9242a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/wallSingle.obj using Guid(e81b8bb483ea9e94eac1506b75e9242a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5f3109a200f3538393a255d93ae415') in 0.056445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Dungeon/Models/obj/wallSingle_broken.obj
+  artifactKey: Guid(0ee14be5b500b5c4eb248819faab0c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/wallSingle_broken.obj using Guid(0ee14be5b500b5c4eb248819faab0c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ffd1e75edbc5a0c3821bb7de8c3caa') in 0.033876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.374070 seconds.
+  path: Assets/Dungeon/Models/obj/wallSingle_corner.obj
+  artifactKey: Guid(9b1a9965ab9da0a458c999548f5ee95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/wallSingle_corner.obj using Guid(9b1a9965ab9da0a458c999548f5ee95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2847fea66b0a9eae5b310b866af283a3') in 0.030380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dungeon/Models/obj/wallSingle_split.obj
+  artifactKey: Guid(bb5e9fb0bef090e48834ecee6ecc2f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/wallSingle_split.obj using Guid(bb5e9fb0bef090e48834ecee6ecc2f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e002dc7371bf62bf31c7df98f2214640') in 0.037806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Dungeon/Models/obj/wallSingle_door.obj
+  artifactKey: Guid(56a767c979d99df4bbdd67cc9c3eb051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/wallSingle_door.obj using Guid(56a767c979d99df4bbdd67cc9c3eb051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8f3c5e45975c52d56534d5180e6f12') in 0.035564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dungeon/Models/obj/wallSingle_windowGate.obj
+  artifactKey: Guid(8dce774526f58ea45834d9f9759ebfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/wallSingle_windowGate.obj using Guid(8dce774526f58ea45834d9f9759ebfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c605dcc13420b5015934591ff1996ef2') in 0.043730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.123943 seconds.
+  path: Assets/Dungeon/Models/obj/weaponRack.obj
+  artifactKey: Guid(2a1fff098bfa1404fa04889e30c7fcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Models/obj/weaponRack.obj using Guid(2a1fff098bfa1404fa04889e30c7fcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0f4747e6013921a8cb74456c6e4b04') in 0.022094 seconds 
