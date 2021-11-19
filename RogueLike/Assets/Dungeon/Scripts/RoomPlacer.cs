@@ -48,7 +48,7 @@ public class RoomPlacer : MonoBehaviour
             // Эту строчку можно заменить на выбор положения комнаты с учётом того насколько он далеко/близко от центра,
             // или сколько у него соседей, чтобы генерировать более плотные, или наоборот, растянутые данжи
             Vector2Int position = vacantPlaces.ElementAt(Random.Range(0, vacantPlaces.Count));
-            //newRoom.RotateRandomly();
+            newRoom.RotateRandomly();
 
             if (ConnectToSomething(newRoom, position))
             {
