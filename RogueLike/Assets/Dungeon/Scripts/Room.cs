@@ -13,7 +13,7 @@ public class Room : MonoBehaviour
 
         for (int i = 0; i < count; i++)
         {
-            transform.Rotate(0, 90, 0);
+            transform.Rotate(Vector3.up * 90);
 
             GameObject tmp = DoorL;
             DoorL = DoorD;
