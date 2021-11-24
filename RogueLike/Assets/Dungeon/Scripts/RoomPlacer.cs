@@ -39,26 +39,46 @@ public class RoomPlacer : MonoBehaviour
             }
         }
 
-        // Эту строчку можно заменить на выбор комнаты с учётом её вероятности, вроде как в ChunksPlacer.GetRandomChunk()
-        Room newRoom = Instantiate(RoomPrefabs[Random.Range(0, RoomPrefabs.Length)]);
+        GameObject[] boss = GameObject.FindGameObjectsWithTag("RoomB");
+        GameObject[] treasure = GameObject.FindGameObjectsWithTag("RoomT");
 
+        if (boss.Length >= 2 && treasure.Length >= 3)
+        {
+            Room newRoom = Instantiate(RoomPrefabs[Random.Range(1, RoomPrefabs.Length - 1)]);
+
+            CreateRoom(newRoom, vacantPlaces);
+        }
+        else if (boss.Length >= 2)
+        {
+            Room newRoom = Instantiate(RoomPrefabs[Random.Range(1, RoomPrefabs.Length)]);
+
+            CreateRoom(newRoom, vacantPlaces);
+        }
+        else
+        {
+            Room newRoom = Instantiate(RoomPrefabs[Random.Range(0, RoomPrefabs.Length)]);
+
+            CreateRoom(newRoom, vacantPlaces);
+        }
+    }
+
+    public void CreateRoom(Room nR, HashSet<Vector2Int> vP)
+    {
         int limit = 500;
         while (limit-- > 0)
         {
-            // Эту строчку можно заменить на выбор положения комнаты с учётом того насколько он далеко/близко от центра,
-            // или сколько у него соседей, чтобы генерировать более плотные, или наоборот, растянутые данжи
-            Vector2Int position = vacantPlaces.ElementAt(Random.Range(0, vacantPlaces.Count));
-            newRoom.RotateRandomly();
+            Vector2Int position = vP.ElementAt(Random.Range(0, vP.Count));
+            nR.RotateRandomly();
 
-            if (ConnectToSomething(newRoom, position))
+            if (ConnectToSomething(nR, position))
             {
-                newRoom.transform.position = new Vector3(position.x - 9, 0, position.y - 9) * 20;
-                spawnedRooms[position.x, position.y] = newRoom;
+                nR.transform.position = new Vector3(position.x - 9, 0, position.y - 9) * 20;
+                spawnedRooms[position.x, position.y] = nR;
                 return;
             }
         }
 
-        Destroy(newRoom.gameObject);
+        Destroy(nR.gameObject);
     }
 
     private bool ConnectToSomething(Room room, Vector2Int p)

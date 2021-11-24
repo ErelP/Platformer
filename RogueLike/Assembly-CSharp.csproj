@@ -57,7 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Dungeon\Scripts\Room.cs" />
+    <Compile Include="Assets\Dungeon\Scripts\Player.cs" />
     <Compile Include="Assets\Dungeon\Scripts\RoomPlacer.cs" />
+    <Compile Include="Assets\Dungeon\Scripts\FollowCamera.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
