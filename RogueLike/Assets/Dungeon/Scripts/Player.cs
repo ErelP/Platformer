@@ -2,32 +2,26 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private Rigidbody componentRigidbody;
-
-    public int TurnSpeed = 2;
+    private Rigidbody rb;
+    public float rotationSpeed = 20;
+    public float speed = 4f;
 
     private void Start()
     {
-        componentRigidbody = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+
+        Vector3 directionaVector = new Vector3(h, 0, v);
+        if (directionaVector.magnitude > Mathf.Abs(0.05f))
         {
-            componentRigidbody.AddForce(Vector3.forward * TurnSpeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(directionaVector), Time.deltaTime * rotationSpeed);
         }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            componentRigidbody.AddForce(Vector3.back * TurnSpeed);
-        }
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            componentRigidbody.AddForce(Vector3.left * TurnSpeed);
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            componentRigidbody.AddForce(Vector3.right * TurnSpeed);
-        }
+
+        rb.velocity = Vector3.ClampMagnitude(directionaVector, 1) * speed;
     }
 }
